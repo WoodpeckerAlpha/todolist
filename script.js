@@ -217,8 +217,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let flagTheme = "light";
 
     document.addEventListener("keydown", (event) => {
-        event.preventDefault();
         if (event.key === "Tab") {
+            event.preventDefault();
             swapTheme();
         }
     });
