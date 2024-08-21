@@ -218,8 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.addEventListener("keydown", (event) => {
         if (event.key === "Tab") {
-            event.preventDefault();
-            swapTheme();
+                      swapTheme();
         }
     });
 
